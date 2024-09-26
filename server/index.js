@@ -16,6 +16,7 @@ const isLoggedIn = async (req, res, next) => {
 
 app.post('/api/auth/login', async (req, res, next) => {
     try {
+        console.log('test')
         res.send(await authenticate(req.body));
     }catch (error) {
         next(error)

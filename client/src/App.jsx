@@ -5,6 +5,7 @@ import Home from './components/Home'
 import NavBar from './components/Navigations'
 import Login from './components/Login'
 import Register from './components/Register'
+import Reviews from './components/Reviews'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <Link to={"/home"}>Home</Link>
           <Link to={"/login"}>Login</Link>
           <Link to={"/register"}>Register</Link>
+          <Link to={"/reviews"}>Reviews</Link>
         </div>
       </div>
       <div>
@@ -22,6 +24,7 @@ function App() {
           <Route path="/home" element={<Home/>}/>
           <Route path="/login" element={<Login/>}/>
           <Route path ="/register" element={<Register/>}/>
+          <Route path ="/reviews" element={<Reviews/>}/>
         </Routes>
       </div>
       </>

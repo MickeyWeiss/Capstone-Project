@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import { useEffect } from 'react'
 
-const Home = () => {
+const Reviews = () => {
     return (
         <>
         </>
     )
 }
 
-export default Home
+export default Reviews
