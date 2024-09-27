@@ -14,7 +14,19 @@
 }
 
 #nav-bar-container {
+  text-align: center;
 
+}
+
+#welcome {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#home-image{
+  margin-left: 1em;
+  margin-right: 1em;
+  width: 50%;
 }
 
 a {
