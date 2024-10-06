@@ -90,7 +90,7 @@ Nusquam mandamus sententiae per at, eos autem veritus laboramus ea. Cu omnes ref
 
 <img id = "monaco-image-1" src = "https://www.officeescapeartist.com/wp-content/uploads/2021/11/Monte-Carlo-Casino-Monaco.jpg" alt = "monecarlo casino picture"></img>
 </div>
-<div>
+<div id = "nice-div">
             <h2>Nice</h2>
             <p>Lorem ipsum dolor sit amet, reque legendos perpetua pri et, eu vis hinc erant. Vim et minim electram. Ex eum facilisis vituperatoribus. Mea commune persequeris at, ius ne debet recusabo, latine forensibus est cu. Vim ad fierent gloriatur disputationi, facilisi mandamus ex pro. Partiendo delicatissimi sit ut, quo erat vocibus salutandi eu.
 
@@ -101,8 +101,10 @@ Melius definiebas incorrupte qui ex, sed ei error ornatus. In elit efficiantur c
 Vix ne dico magna, quo cu verear corrumpit, ut veritus moderatius cum. Vel cu zril consul, ea dictas appellantur has. Cum graecis corrumpit an. Sed ea ubique detraxit indoctum, duis integre mei et.
 
 Nusquam mandamus sententiae per at, eos autem veritus laboramus ea. Cu omnes referrentur qui. Affert cetero vis in, eos nulla oblique admodum ad. Id voluptatum scribentur consectetuer est.</p>
+
+<img id = "nice-image-1" src = "https://lp-cms-production.imgix.net/2023-02/3cb45f6e59190e8213ce0a35394d0e11-nice.jpg" alt = "Nice beach picture"></img>
 </div>
-<div>
+<div id = "london-div">
             <h2>London</h2>
             <p>Lorem ipsum dolor sit amet, reque legendos perpetua pri et, eu vis hinc erant. Vim et minim electram. Ex eum facilisis vituperatoribus. Mea commune persequeris at, ius ne debet recusabo, latine forensibus est cu. Vim ad fierent gloriatur disputationi, facilisi mandamus ex pro. Partiendo delicatissimi sit ut, quo erat vocibus salutandi eu.
 
@@ -113,8 +115,10 @@ Melius definiebas incorrupte qui ex, sed ei error ornatus. In elit efficiantur c
 Vix ne dico magna, quo cu verear corrumpit, ut veritus moderatius cum. Vel cu zril consul, ea dictas appellantur has. Cum graecis corrumpit an. Sed ea ubique detraxit indoctum, duis integre mei et.
 
 Nusquam mandamus sententiae per at, eos autem veritus laboramus ea. Cu omnes referrentur qui. Affert cetero vis in, eos nulla oblique admodum ad. Id voluptatum scribentur consectetuer est.</p>
+
+<img id = "london-image-1" src = "https://i.natgeofe.com/n/ff6bc870-1700-4a2f-87a2-2955abd83794/h_25.539224.jpg" alt = "Tower Bridge picture"></img>
 </div>
-<div>
+<div id = "dublin-div">
             <h2>Dublin</h2>
             <p>Lorem ipsum dolor sit amet, reque legendos perpetua pri et, eu vis hinc erant. Vim et minim electram. Ex eum facilisis vituperatoribus. Mea commune persequeris at, ius ne debet recusabo, latine forensibus est cu. Vim ad fierent gloriatur disputationi, facilisi mandamus ex pro. Partiendo delicatissimi sit ut, quo erat vocibus salutandi eu.
 
@@ -125,8 +129,10 @@ Melius definiebas incorrupte qui ex, sed ei error ornatus. In elit efficiantur c
 Vix ne dico magna, quo cu verear corrumpit, ut veritus moderatius cum. Vel cu zril consul, ea dictas appellantur has. Cum graecis corrumpit an. Sed ea ubique detraxit indoctum, duis integre mei et.
 
 Nusquam mandamus sententiae per at, eos autem veritus laboramus ea. Cu omnes referrentur qui. Affert cetero vis in, eos nulla oblique admodum ad. Id voluptatum scribentur consectetuer est.</p>
+
+<img id = "dublin-image-1" src = "https://smilingway.cz/wp-content/uploads/2023/02/Dublin-hlavni.jpg" alt = "Dublin Temple Bar picture"></img>
 </div>
-<div>
+<div id = "amsterdam-div">
             <h2>Amsterdam</h2>
             <p>Lorem ipsum dolor sit amet, reque legendos perpetua pri et, eu vis hinc erant. Vim et minim electram. Ex eum facilisis vituperatoribus. Mea commune persequeris at, ius ne debet recusabo, latine forensibus est cu. Vim ad fierent gloriatur disputationi, facilisi mandamus ex pro. Partiendo delicatissimi sit ut, quo erat vocibus salutandi eu.
 
@@ -137,6 +143,8 @@ Melius definiebas incorrupte qui ex, sed ei error ornatus. In elit efficiantur c
 Vix ne dico magna, quo cu verear corrumpit, ut veritus moderatius cum. Vel cu zril consul, ea dictas appellantur has. Cum graecis corrumpit an. Sed ea ubique detraxit indoctum, duis integre mei et.
 
 Nusquam mandamus sententiae per at, eos autem veritus laboramus ea. Cu omnes referrentur qui. Affert cetero vis in, eos nulla oblique admodum ad. Id voluptatum scribentur consectetuer est.</p>
+
+<img id = "amsterdam-image-1" src = "https://www.eurail.com/en/plan-your-trip/trip-ideas/city-guides/amsterdam/_jcr_content/root/responsivegrid/masthead-image.coreimg.jpeg/1699351713352/amsterdam-masthead.jpeg" alt = "Amsterdam canal picture"></img>
 </div>
 
         </div>

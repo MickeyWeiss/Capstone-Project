@@ -133,6 +133,53 @@
   box-shadow: 5px 5px 5px grey;
 }
 
+#nice-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+#nice-image-1 {
+  width: 50%;
+  box-shadow: 5px 5px 5px grey;
+}
+
+#london-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+#london-image-1 {
+  width: 50%;
+  box-shadow: 5px 5px 5px grey;
+}
+
+#dublin-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+#dublin-image-1 {
+  width: 50%;
+  box-shadow: 5px 5px 5px grey;
+}
+
+#amsterdam-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+#amsterdam-image-1 {
+  width: 50%;
+  box-shadow: 5px 5px 5px grey;
+}
 h1 {
   text-align: center;
 }
