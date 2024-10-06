@@ -36,7 +36,7 @@ const Register = () => {
     }
 
     return(
-        <div>
+        <div id="register-div">
             <h2>Create a Travel Account</h2>
             {error && <p className='error'>{error}</p>}
             <form onSubmit = {handleRegisterSubmit}>
@@ -54,6 +54,8 @@ const Register = () => {
 
                 <button type = 'submit'>Create Account</button>
             </form>
+
+            <img id="thai-image" src = "https://www.wanderlustmagazine.com/wp-content/uploads/2023/11/grand-palace-wat-phaew-thailand-scaled.jpg" alt = "thai-image"></img>
 
         </div>
 

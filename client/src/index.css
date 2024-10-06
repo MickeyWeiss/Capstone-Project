@@ -26,6 +26,17 @@
   
 }
 
+#register-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+#thai-image {
+  width: 50%;
+  box-shadow: 5px 5px 5px grey;
+}
+
 #nav-bar-container {
   text-align: center;
   justify-content:space-between;
@@ -37,13 +48,87 @@
 }
 
 #welcome {
-  margin-left: 1em;
-  margin-right: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 
 #home-image {
   margin-left: 1em;
   margin-right: 1em;
+  width: 50%;
+  box-shadow: 5px 5px 5px grey;
+}
+
+#jerusalem-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+#jerusalem-image-1 {
+  width: 50%;
+  box-shadow: 5px 5px 5px grey;
+}
+
+#paris-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+#paris-image-1 {
+  width: 50%;
+  box-shadow: 5px 5px 5px grey;
+}
+
+#rome-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+#rome-image-1 {
+  width: 50%;
+  box-shadow: 5px 5px 5px grey;
+}
+
+#positano-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+#positano-image-1 {
+  width: 50%;
+  box-shadow: 5px 5px 5px grey;
+}
+
+#venice-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+#venice-image-1 {
+  width: 50%;
+  box-shadow: 5px 5px 5px grey;
+}
+
+#monaco-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+#monaco-image-1 {
   width: 50%;
   box-shadow: 5px 5px 5px grey;
 }

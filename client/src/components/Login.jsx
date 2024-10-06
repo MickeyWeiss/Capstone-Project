@@ -35,7 +35,7 @@ const Login = ({userLogin}) => {
 
         <div id="login-div">
 
-            <h3>Login to your Travel Account</h3>
+            <h2>Login to your Travel Account</h2>
             <form onSubmit = {handleLoginSubmit}>
                 <label>E-Mail: </label>
                 <input type = 'text' value = {eMail} onChange = {(event) => setEMail(event.target.value)}></input>
