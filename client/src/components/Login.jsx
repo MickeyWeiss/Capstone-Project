@@ -33,7 +33,7 @@ const Login = ({userLogin}) => {
 
     return (
 
-        <div>
+        <div id="login-div">
 
             <h3>Login to your Travel Account</h3>
             <form onSubmit = {handleLoginSubmit}>
@@ -45,6 +45,8 @@ const Login = ({userLogin}) => {
 
                 <button type = 'submit'>Login</button>
             </form>
+            <img id= "amalficoastimage" src = "https://www.classicjourneys.com/wp-content/uploads/2021/07/550000001kkJ2AAI.jpg" alt = "amalfi-coast-image"></img>
+            
         </div>
     )
 }
