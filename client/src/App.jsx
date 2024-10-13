@@ -14,7 +14,7 @@ function App() {
     <>
       <div id="nav-bar-container">
         <div id="navbar">
-          <Link to={"/home"}>Home</Link>
+          <Link to={"/"}>Home</Link>
           <Link to={"/login"}>Login</Link>
           <Link to={"/register"}>Register</Link>
           <Link to={"/reviews"}>Reviews</Link>
@@ -23,13 +23,14 @@ function App() {
       </div>
       <div>
         <Routes>
-          <Route path="/home" element={<Home/>}/>
+          <Route path="/" element={<Home/>}/>
           <Route path="/login" element={<Login/>}/>
           <Route path ="/register" element={<Register/>}/>
           <Route path ="/reviews" element={<Reviews/>}/>
           <Route path ="/locations" element={<Locations/>}/>
         </Routes>
       </div>
+      
       </>
   )
 }
