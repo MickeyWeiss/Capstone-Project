@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useEffect } from 'react'
+import {BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 
 const Login = ({userLogin}) => {
     const [eMail, setEMail] = useState ('')
@@ -36,6 +37,7 @@ const Login = ({userLogin}) => {
         <div id="login-div">
 
             <h2>Login to your Travel Account</h2>
+            <h4>Or you can register for a new account <Link to={"/register"}>here</Link></h4>
             <form onSubmit = {handleLoginSubmit}>
                 <label>E-Mail: </label>
                 <input type = 'text' value = {eMail} onChange = {(event) => setEMail(event.target.value)}></input>
