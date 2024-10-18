@@ -2,6 +2,36 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 
 const Reviews = () => {
+    const [review, setReview] = useState({
+        location: '',
+        review: '',
+    })
+    const [error, setError] = useState('')
+
+    const handleReviewChange = (event) => {
+        const {location, value} = event.target
+        setReview({...review, [location]: value}) 
+    }
+
+    const handleReviewSubmit = async (event) => {
+        event.preventDefault()
+        try {
+            const response = await fetch('/api/users/:id/reviews', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(review),
+            })
+            if (!response.ok) {
+                const errorData = await response.json()
+                throw new Error(errorData.message)
+            }
+
+        }catch (error) {
+            setError(error.message)
+        }
+    }
 
     return (
         <>
