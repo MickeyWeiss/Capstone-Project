@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 
 const Reviews = () => {
-    const [review, setReview] = useState({
+    const [reviewInfo, setReviewInfo] = useState({
         location: '',
         review: '',
     })
@@ -10,7 +10,7 @@ const Reviews = () => {
 
     const handleReviewChange = (event) => {
         const {location, value} = event.target
-        setReview({...review, [location]: value}) 
+        setReviewInfo({...reviewInfo, [location]: value}) 
     }
 
     const handleReviewSubmit = async (event) => {
@@ -35,6 +35,7 @@ const Reviews = () => {
 
     return (
         <>
+    
         <div id="review-container">
             <h1>Recently Reviewed Destinations</h1>
             <div id= "jerusalem-div">
@@ -179,6 +180,20 @@ Nusquam mandamus sententiae per at, eos autem veritus laboramus ea. Cu omnes ref
 </div>
 
         </div>
+
+        <div id="review-form-div">
+            <h2>Write a review</h2>
+            {error && <p className='error'>{error}</p>}
+            <form onSubmit = {handleReviewSubmit}>
+                <label>Location: </label>
+                <input type = 'text' name ='location' value = {reviewInfo.location} onChange = {handleReviewChange}/>
+                
+                <label>Review: </label>
+                <textarea type = 'text' name = 'review' maxlength = '25000' rows = '5' cols = '50' value = {reviewInfo.review} onChange = {handleReviewChange}/>
+                
+                <button type = 'submit'>Submit Review</button>
+            </form>
+            </div>
         </>
     )
 }
