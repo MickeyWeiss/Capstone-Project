@@ -182,7 +182,7 @@ Nusquam mandamus sententiae per at, eos autem veritus laboramus ea. Cu omnes ref
         </div>
 
         <div id="review-form-div">
-            <h2>Write a review</h2>
+            <h2>Write a Review</h2>
             {error && <p className='error'>{error}</p>}
             <form onSubmit = {handleReviewSubmit}>
                 <label>Location: </label>
