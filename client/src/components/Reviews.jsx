@@ -16,7 +16,7 @@ const Reviews = () => {
     const handleReviewSubmit = async (event) => {
         event.preventDefault()
         try {
-            const response = await fetch('/api/users/:id/reviews', {
+            const response = await fetch('https://capstone-project-uhld.onrender.com/api/users/:id/reviews', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

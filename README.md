@@ -2,4 +2,4 @@ This is the Readme for my Fullstack Academy capstone project.
 
 Link to project board: https://github.com/users/MickeyWeiss/projects/6
 
-Project is deployed here: https://dapper-dango-b22172.netlify.app/
+Project is deployed here: https://majestic-concha-f8eecb.netlify.app/

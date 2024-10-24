@@ -19,7 +19,7 @@ const Register = () => {
     const handleRegisterSubmit = async (event) => {
         event.preventDefault()
         try {
-            const response = await fetch('/api/auth/login', {
+            const response = await fetch('https://capstone-project-uhld.onrender.com/api/auth/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
